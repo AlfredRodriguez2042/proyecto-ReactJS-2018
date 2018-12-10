@@ -1,0 +1,63 @@
+{
+    "carta":[
+        {
+            "id": 1,
+            "name": "palto principal",
+            "poster": "https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
+            "prince": "300",
+            "autor": "alfredo rodriguez",
+            "temporada": "otoño",
+            "categories": [
+                "parrila",
+                "mariscos"
+            ]
+
+
+        },
+        {
+            "id": 2,
+            "name": "palto principal",
+            "poster": "https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
+            "prince": "300",
+            "autor": "alfredo rodriguez",
+            "temporada": "otoño",
+            "categories": [
+                "parrila",
+                "mariscos"
+            ]
+
+
+        },
+        {
+            "id": 3,
+            "name": "palto principal",
+            "poster" :"https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
+            "prince": "300",
+            "autor": "alfredo rodriguez",
+            "temporada": "otoño",
+            "categories": [
+                "parrila",
+                "mariscos"
+            ]
+
+
+        },
+        {
+            "id": 4,
+            "name": "palto principal",
+            "poster":"https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
+            "prince": "300",
+            "autor": "alfredo rodriguez",
+            "temporada": "otoño",
+            "categories": [
+                "parrila",
+                "mariscos"
+            ]
+
+
+        }
+
+
+
+    ]
+}
