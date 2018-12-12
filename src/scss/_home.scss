@@ -1,0 +1,90 @@
+//variables y mixins
+.home{
+    padding: 0;
+    margin: 0;
+}
+.video{
+ --unit: 6vmax;
+ --width: calc(var(--unit) * 16);
+ --height: calc( var(--unit) * 9);
+ width: var(--width);
+ height: var(--height);
+}
+.cheff{
+    margin: 0;
+    padding: 0;
+}
+.portada{
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+}
+.content-home{
+    width: 100%;
+    height: 960px;
+    background: url(../assets/imagen/ingredientes.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.mask{
+    width: 100%;
+    height: 480px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ddd;
+    @media (min-width: 1200px) {
+        clip-path: polygon(52% 100%, 0 0, 100% 0);
+    
+    }
+   
+}
+.text-sub{
+    padding-bottom: 1.2em;
+}
+.home-btn{
+    border: 1px solid #ddd;
+    line-height: 3em;
+    border: 1px solid white;
+    padding: 0 2em;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ddd;
+    background: transparent;
+    &:hover{
+        color: grey;
+        background: #ddd;
+    }
+}
+.ctn-home{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/imagen/fondos/eat-3614411_640.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.mask-2{
+    width: 100%;
+    height: 300px;
+    background: #0f121c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ddd;
+    @media (min-width: 1200px) {
+        clip-path: polygon(52% 100%, 0 0, 100% 0);
+    
+    }
+}
+    
+    

@@ -1,11 +1,93 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis");
-html,
-body {
+.home {
+  padding: 0;
+  margin: 0; }
+
+.video {
+  --unit: 6vmax;
+  --width: calc(var(--unit) * 16);
+  --height: calc( var(--unit) * 9);
+  width: var(--width);
+  height: var(--height); }
+
+.cheff {
+  margin: 0;
+  padding: 0; }
+
+.portada {
+  width: 100%;
+  max-width: 960px;
+  text-align: center; }
+
+.content-home {
+  width: 100%;
+  height: 960px;
+  background: url(../assets/imagen/ingredientes.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.mask {
+  width: 100%;
+  height: 480px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: #ddd; }
+  @media (min-width: 1200px) {
+    .mask {
+      clip-path: polygon(52% 100%, 0 0, 100% 0); } }
+
+.text-sub {
+  padding-bottom: 1.2em; }
+
+.home-btn {
+  border: 1px solid #ddd;
+  line-height: 3em;
+  border: 1px solid white;
+  padding: 0 2em;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #ddd;
+  background: transparent; }
+  .home-btn:hover {
+    color: grey;
+    background: #ddd; }
+
+.ctn-home {
+  width: 100%;
+  height: 800px;
+  background-image: url(../assets/imagen/fondos/eat-3614411_640.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+.mask-2 {
+  width: 100%;
+  height: 300px;
+  background: #0f121c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: #ddd; }
+  @media (min-width: 1200px) {
+    .mask-2 {
+      clip-path: polygon(52% 100%, 0 0, 100% 0); } }
+
+.about {
   height: 100%;
   min-height: 450px; }
 
 .content {
   height: 100%;
+  height: 600px;
   position: relative;
   font-family: 'Dosis', sans-serif;
   z-index: 1;
@@ -24,7 +106,7 @@ body {
   z-index: 20; }
 
 .main-text {
-  padding: 20vh 20px 0 20px;
+  padding: 18vh 20px 0 20px;
   text-align: center;
   line-height: 2em;
   font-size: 5vh; }
@@ -60,11 +142,11 @@ body {
   .ground:after {
     left: 50%;
     margin-left: -166.66667px;
-    box-shadow: -305px 295px 15px #8496b4, -615px 585px 15px #9aa9c2, -895px 905px 15px #a7b4c9, -1230px 1170px 15px #9aa9c2, -1465px 1535px 15px #adb9cd, -1820px 1780px 15px #8496b4, -2145px 2055px 15px #91a1bc, -2435px 2365px 15px #8193b2, -2720px 2680px 15px #8a9bb8, -2970px 3030px 15px #9aa9c2, -3280px 3320px 15px #8496b4, -3585px 3615px 15px #8798b6, -3885px 3915px 15px #a7b4c9, -4205px 4195px 15px #9aa9c2, -4545px 4455px 15px #8798b6, -4780px 4820px 15px #bac4d5; }
+    box-shadow: -340px 260px 15px #b7c1d3, -600px 600px 15px #aab6cb, -910px 890px 15px #adb9cd, -1170px 1230px 15px #bac4d5, -1475px 1525px 15px #8496b4, -1825px 1775px 15px #aab6cb, -2140px 2060px 15px #97a6c0, -2425px 2375px 15px #8193b2, -2655px 2745px 15px #a4b1c8, -2975px 3025px 15px #b0bccf, -3330px 3270px 15px #aab6cb, -3635px 3565px 15px #8496b4, -3850px 3950px 15px #8a9bb8, -4230px 4170px 15px #7e90b0, -4465px 4535px 15px #8e9eba, -4800px 4800px 15px #8a9bb8; }
   .ground:before {
     right: 50%;
     margin-right: -166.66667px;
-    box-shadow: 270px -330px 15px #91a1bc, 610px -590px 15px #94a3be, 860px -940px 15px #9dabc4, 1240px -1160px 15px #8193b2, 1490px -1510px 15px #a4b1c8, 1770px -1830px 15px #8798b6, 2060px -2140px 15px #8496b4, 2410px -2390px 15px #8e9eba, 2725px -2675px 15px #94a3be, 3005px -2995px 15px #91a1bc, 3275px -3325px 15px #94a3be, 3645px -3555px 15px #a1aec6, 3865px -3935px 15px #9aa9c2, 4200px -4200px 15px #94a3be, 4525px -4475px 15px #8798b6, 4850px -4750px 15px #8193b2; }
+    box-shadow: 305px -295px 15px #8a9bb8, 605px -595px 15px #94a3be, 870px -930px 15px #8193b2, 1205px -1195px 15px #94a3be, 1505px -1495px 15px #adb9cd, 1850px -1750px 15px #bac4d5, 2080px -2120px 15px #bac4d5, 2360px -2440px 15px #a7b4c9, 2715px -2685px 15px #94a3be, 3025px -2975px 15px #b0bccf, 3350px -3250px 15px #aab6cb, 3555px -3645px 15px #a7b4c9, 3890px -3910px 15px #a7b4c9, 4160px -4240px 15px #9aa9c2, 4500px -4500px 15px #a1aec6, 4775px -4825px 15px #8193b2; }
 
 .mound {
   margin-top: -80px;

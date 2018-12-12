@@ -103,15 +103,15 @@ handleCanvas(){
         return(
             <div className="about" >
             
-            <div class="content"  onClick={this.handleCanvas} >
-                <canvas class="snow" id="snow"></canvas>
-                <div class="main-text">
-                  <h1>Error :( <br/>That page has gone missing.</h1><a class="home-link" href="/">Hitch a ride back home.</a>
+            <div className="content"  onClick={this.handleCanvas} >
+                <canvas className="snow" id="snow"></canvas>
+                <div className="main-text">
+                  <h1>Error :( <br/>That page has gone missing.</h1><a className="home-link" href="/">Hitch a ride back home.</a>
                 </div>
-                <div class="ground">
-                  <div class="mound"> 
-                    <div class="mound_text">404</div>
-                    <div class="mound_spade"></div>
+                <div className="ground">
+                  <div className="mound"> 
+                    <div className="mound_text">404</div>
+                    <div className="mound_spade"></div>
                   </div>
                 </div>
               </div>
