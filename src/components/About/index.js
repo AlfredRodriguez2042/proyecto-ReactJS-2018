@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 // styles
 import '../../css/index.css' 
+import Platos from '../../assets/imagen/chicken.jpg';
 
 class About extends Component{
    constructor(...props){
@@ -43,43 +44,44 @@ class About extends Component{
     render(){
         return (
             <div className="body" >
-    
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
+      
+      <div className="banner platos">
+      <div className="grid">
+        <div className="banner__data">
+          <h2 className="title-banner" >Los Platos De la temporada</h2>
+          <p>Nuestra carta de primavera, es un homenaje a la diversidad de productos de esta temporada .<br/>De esta carta se desprenden una degustacion de sabores y tradiciones, para dar paso a nuestra propuesta gastronomica</p>
+          <div className="btn-ghost">Ver mas detalles</div>
+        </div>
+        <div className="banner__caption"><i>"Gracias a todos por su gran aprovacion de nuestro menu"</i><br/>-Cocinero <br/><span>Johan Roca</span></div>
+      </div>
+    </div>
 
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-             
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1>
-            <input type="submit" id="btn" onClick={ this.handleBotom}></input>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1><h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1>
-            <h1> hola pagina about </h1><h1> hola pagina about </h1>
+                       {/* postres */}
+         <div className="postres banner">
+      <div className="grid">
+        <div className="banner__data">
+          <h2 className="title-banner" >Los Postres De la temporada</h2>
+          <p>Nuestra carta de primavera, incluye algunos postres de la region usando productos de temporada de alta calidad .<br/>De esta carta se desprenden una degustacion de sabores y tradiciones, para dar paso a nuestra propuesta gastronomica</p>
+          <div className="btn-ghost">Ver mas detalles</div>
+        </div>
+        <div className="banner__caption"><i>"Gracias a todos por su gran aprovacion de nuestro menu"</i><br/>-Repostrero -Pastelero <br/><span>Jordi Roca</span></div>
+      </div>
+    </div>
 
-            
-            
-               <div className="ctn" ></div>
-            </div>
+                               {/* barra */}
+       <div className="banner barra">
+      <div className="grid">
+        <div className="banner__data">
+          <h2 className="title-banner" >Nuestra Barra</h2>
+          <p>Nuestra barra es muy amplia y selectiva, trabajamos con variedad de vinos y licores d todas partes del mundo .<br/>Todos tus tragos favoritos en un solo lugar calido y acojedor</p>
+          <div className="btn-ghost">Ver mas detalles</div>
+        </div>
+        <div className="banner__caption"><i>"Gracias a todos por su gran aprovacion de nuestro menu"</i><br/>-Bartender <br/><span>Carlos Garcia</span></div>
+      </div>
+    </div>
+      
+            <input type="submit" id="btn" onclick={this.handleBotom} /> 
+               </div>
         );
     }
 }

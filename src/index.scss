@@ -1,8 +1,9 @@
-// variables
-
+// variables   nota: poner .scss si no, no los toma
+@import './scss/variables.scss';
 
 
 
 // componentes
 @import './scss/home.scss';
+@import './scss/carta.scss';
 @import './scss/404.scss';

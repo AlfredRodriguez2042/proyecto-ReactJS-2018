@@ -1,0 +1,139 @@
+// variables
+@import './variables.scss';
+
+.banner {
+   
+    --radius       : 1200px;
+    --size         : 100%;
+    --color        : #00CBFF;
+    padding-top    : 2rem;
+    padding-bottom : 2rem;
+    background     : linear-gradient(rgba(black, .9), rgba(black, .9)), var(--image) no-repeat center center / cover;
+    box-sizing: border-box;
+    display: block;
+  
+    @media(min-width: 1024px) {
+      clip-path : polygon(0 0, 100% 0, 100% 100%, 0 95%);
+      padding-bottom: 6rem;
+      padding-top: 6rem;
+    }
+  
+    @media(min-width: 1200px) {
+      background     : radial-gradient(circle var(--radius) at 100% 100%, transparent 50%, #F6F6F6 50%), var(--image) no-repeat center right / auto var(--size);
+      padding-bottom : 6rem;
+      padding-top    : 6rem;
+      border-bottom  : 1px solid var(--color-border);
+    }
+  
+    @media(min-width: 1200px) {
+      --radius : 1300px;
+    }
+  
+    @media(min-width: 1400px) {
+      --radius : 1600px;
+      --size   : 120%;
+    }
+  
+    .grid {
+    --rem: 2rem;
+    
+      position : relative; // para colocar el caption
+      display: grid;
+      grid-template-columns: repeat(2, calc((100% - var(--rem)*1)/2));
+      // grid-gap: 2rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+    
+
+    }
+  
+    .title-banner { // titulo del banner
+      @media(min-width: 1024px) {
+        //font-size : 1rem;
+        color     : var(--color-second)
+      }
+    }
+  
+    &__data {
+      position   : relative;
+      color      : #FFF;
+      text-align : center;
+      font-size  : 16px;
+      line-height: 2em;
+  
+      @media(min-width: 1024px) {
+        padding    : 1rem 1rem 1rem 2rem;
+        text-align : left;
+        color      : var(--color-text);
+  
+        &::before {
+          position      : absolute;
+          border-radius : 4px;
+          content       : "";
+          width         : 8px;
+          height        : 100%;
+          top           : 0;
+          left          : 0;
+          background    : var(--color);
+        }
+      }
+    }
+  
+    &__caption {
+      position   : absolute;
+      bottom     : -5rem;
+      right      : 0;
+      z-index    : 100;
+      background : rgba(purple, .9);
+      color      : #FFF;
+      padding    : .5rem;
+      font-size  : 14px;
+      // display: block;
+      @media(min-width: 1024){
+        display : none;
+      }
+  
+      span {
+        color : var(--color-second)
+      }
+    }
+  }
+
+  .btn-ghost{
+    border: 1px solid var(--color);
+    padding:  .5rem 1rem;
+    background-color: var(--color);
+    color: White;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: .25rem;
+    transition: transform .05s;
+    text-align: center;
+
+    &:hover{
+    background-color: var(--color-alt);
+    }
+
+    &:active{
+      transform: scale(.99);
+    }
+
+  }
+
+
+  .platos{
+    --image        : url(../assets/imagen/grilled-chicken-1334632_1920.jpg);
+  }
+
+  .postres{
+    --image        : url(../assets/imagen/postres/the-cake-427920_1920.jpg);
+  }
+  
+  .barra{
+    --image        : url(../assets/imagen/barra/glass-3151279_1920.jpg);
+  }
+
+
+

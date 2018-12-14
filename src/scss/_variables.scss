@@ -1,0 +1,113 @@
+// Variables de color Css
+
+root{
+  --color-first      : #007BDF;
+  --color-first-alt  : #006DC6;
+  --color-second     : #00CBFF;
+  --color-second-alt : #00BFF0;
+  --color-third      : #FF3C32;
+  --color-third-alt  : #FF2419;
+  --color-accent     : #FBA905;
+  --color-accent-alt : #F1A000;
+  --color-light      : #F0F0F0;
+  --color-dark       : #282D31;
+  --color-dark-alt   : #141618;
+  --color-border     : #DFE0E0;
+  --color-text       : #53575A;
+  --color-text-light : #BABDBF;
+  --color-body-bg    : #FCFCFC;
+}
+
+// Variables de color Sass
+// Colors
+$color-fisrt : #007BDF;
+$color-first-alt : #006DC6;
+$color-second : #00CBFF;
+$color-second-alt : #00BFF0;
+$color-third : #FF3C32;
+$color-third-alt : #FF2419;
+$color-accent : #FBA905;
+$color-accent-alt : #F1A000;
+$color-dark : #282D31;
+$color-dark-alt : #141618;
+$color-border : #DFE0E0;
+$color-light : #F6F6F6;
+$color-text : #53575A;
+$color-text-light : #BABDBF;
+$color-body-bg : #FAFDFF;
+
+
+
+
+.color {
+    color: var(--color)
+  }
+  
+  .background {
+    background-color: var(--color);
+  }
+
+
+.first-color, .color-first {
+    --color     : var(--first-color);
+    --color-alt : var(--first-color-alt);
+  }
+  
+  .second-color, .color-second {
+    --color            : var(--second-color);
+    --color-alt        : var(--second-color-alt);
+  }
+  
+  .third-color, .color-third {
+    --color            : var(--third-color);
+    --color-alt        : var(--third-color-alt);
+  }
+  
+  .accent-color, .color-accent {
+    --color            : var(--accent-color);
+    --color-alt        : var(--accent-color-alt);
+  }
+  
+  .dark-color, .color-dark {
+    --color            : var(--dark-color);
+    --color-alt        : var(--dark-color-alt);
+  }
+  
+  .text-color, .color-text {
+    --color: var(--text-color);
+    --color-alt: var(--dark-color);
+  }
+  
+  .light-color, .color-light {
+    --color            : var(--light-color);
+    --color-alt        : var(--border-color);
+  }
+  
+  .first-color-alt {
+    --color: var(--first-color-alt);
+  }
+  
+  .second-color-alt {
+    --color: var(--second-color-alt);
+  }
+  
+  .third-color-alt {
+    --color: var(--third-color-alt);
+  }
+  
+  .accent-color-alt {
+    --color: var(--accent-color-alt);
+  }
+  
+  .dark-color-alt {
+    --color: var(--dark-color-alt);
+  }
+  
+  .border-color {
+    --color: var(--border-color);
+  }
+  
+  .text-color {
+    --color: var(--text-color);
+  }
+  

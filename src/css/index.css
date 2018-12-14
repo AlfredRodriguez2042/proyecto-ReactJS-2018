@@ -1,4 +1,76 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis");
+root {
+  --color-first: #007BDF;
+  --color-first-alt: #006DC6;
+  --color-second: #00CBFF;
+  --color-second-alt: #00BFF0;
+  --color-third: #FF3C32;
+  --color-third-alt: #FF2419;
+  --color-accent: #FBA905;
+  --color-accent-alt: #F1A000;
+  --color-light: #F0F0F0;
+  --color-dark: #282D31;
+  --color-dark-alt: #141618;
+  --color-border: #DFE0E0;
+  --color-text: #53575A;
+  --color-text-light: #BABDBF;
+  --color-body-bg: #FCFCFC; }
+
+.color {
+  color: var(--color); }
+
+.background {
+  background-color: var(--color); }
+
+.first-color, .color-first {
+  --color: var(--first-color);
+  --color-alt: var(--first-color-alt); }
+
+.second-color, .color-second {
+  --color: var(--second-color);
+  --color-alt: var(--second-color-alt); }
+
+.third-color, .color-third {
+  --color: var(--third-color);
+  --color-alt: var(--third-color-alt); }
+
+.accent-color, .color-accent {
+  --color: var(--accent-color);
+  --color-alt: var(--accent-color-alt); }
+
+.dark-color, .color-dark {
+  --color: var(--dark-color);
+  --color-alt: var(--dark-color-alt); }
+
+.text-color, .color-text {
+  --color: var(--text-color);
+  --color-alt: var(--dark-color); }
+
+.light-color, .color-light {
+  --color: var(--light-color);
+  --color-alt: var(--border-color); }
+
+.first-color-alt {
+  --color: var(--first-color-alt); }
+
+.second-color-alt {
+  --color: var(--second-color-alt); }
+
+.third-color-alt {
+  --color: var(--third-color-alt); }
+
+.accent-color-alt {
+  --color: var(--accent-color-alt); }
+
+.dark-color-alt {
+  --color: var(--dark-color-alt); }
+
+.border-color {
+  --color: var(--border-color); }
+
+.text-color {
+  --color: var(--text-color); }
+
 .home {
   padding: 0;
   margin: 0; }
@@ -81,6 +153,176 @@
     .mask-2 {
       clip-path: polygon(52% 100%, 0 0, 100% 0); } }
 
+root {
+  --color-first: #007BDF;
+  --color-first-alt: #006DC6;
+  --color-second: #00CBFF;
+  --color-second-alt: #00BFF0;
+  --color-third: #FF3C32;
+  --color-third-alt: #FF2419;
+  --color-accent: #FBA905;
+  --color-accent-alt: #F1A000;
+  --color-light: #F0F0F0;
+  --color-dark: #282D31;
+  --color-dark-alt: #141618;
+  --color-border: #DFE0E0;
+  --color-text: #53575A;
+  --color-text-light: #BABDBF;
+  --color-body-bg: #FCFCFC; }
+
+.color {
+  color: var(--color); }
+
+.background {
+  background-color: var(--color); }
+
+.first-color, .color-first {
+  --color: var(--first-color);
+  --color-alt: var(--first-color-alt); }
+
+.second-color, .color-second {
+  --color: var(--second-color);
+  --color-alt: var(--second-color-alt); }
+
+.third-color, .color-third {
+  --color: var(--third-color);
+  --color-alt: var(--third-color-alt); }
+
+.accent-color, .color-accent {
+  --color: var(--accent-color);
+  --color-alt: var(--accent-color-alt); }
+
+.dark-color, .color-dark {
+  --color: var(--dark-color);
+  --color-alt: var(--dark-color-alt); }
+
+.text-color, .color-text {
+  --color: var(--text-color);
+  --color-alt: var(--dark-color); }
+
+.light-color, .color-light {
+  --color: var(--light-color);
+  --color-alt: var(--border-color); }
+
+.first-color-alt {
+  --color: var(--first-color-alt); }
+
+.second-color-alt {
+  --color: var(--second-color-alt); }
+
+.third-color-alt {
+  --color: var(--third-color-alt); }
+
+.accent-color-alt {
+  --color: var(--accent-color-alt); }
+
+.dark-color-alt {
+  --color: var(--dark-color-alt); }
+
+.border-color {
+  --color: var(--border-color); }
+
+.text-color {
+  --color: var(--text-color); }
+
+.banner {
+  --radius: 1200px;
+  --size: 100%;
+  --color: #00CBFF;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--image) no-repeat center center/cover;
+  box-sizing: border-box;
+  display: block; }
+  @media (min-width: 1024px) {
+    .banner {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+      padding-bottom: 6rem;
+      padding-top: 6rem; } }
+  @media (min-width: 1200px) {
+    .banner {
+      background: radial-gradient(circle var(--radius) at 100% 100%, transparent 50%, #F6F6F6 50%), var(--image) no-repeat center right/auto var(--size);
+      padding-bottom: 6rem;
+      padding-top: 6rem;
+      border-bottom: 1px solid var(--color-border); } }
+  @media (min-width: 1200px) {
+    .banner {
+      --radius: 1300px; } }
+  @media (min-width: 1400px) {
+    .banner {
+      --radius: 1600px;
+      --size: 120%; } }
+  .banner .grid {
+    --rem: 2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, calc((100% - var(--rem)*1)/2));
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box; }
+  @media (min-width: 1024px) {
+    .banner .title-banner {
+      color: var(--color-second); } }
+  .banner__data {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2em; }
+    @media (min-width: 1024px) {
+      .banner__data {
+        padding: 1rem 1rem 1rem 2rem;
+        text-align: left;
+        color: var(--color-text); }
+        .banner__data::before {
+          position: absolute;
+          border-radius: 4px;
+          content: "";
+          width: 8px;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: var(--color); } }
+  .banner__caption {
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+    z-index: 100;
+    background: rgba(128, 0, 128, 0.9);
+    color: #FFF;
+    padding: .5rem;
+    font-size: 14px; }
+    @media (min-width: 1024) {
+      .banner__caption {
+        display: none; } }
+    .banner__caption span {
+      color: var(--color-second); }
+
+.btn-ghost {
+  border: 1px solid var(--color);
+  padding: .5rem 1rem;
+  background-color: var(--color);
+  color: White;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: .25rem;
+  transition: transform .05s;
+  text-align: center; }
+  .btn-ghost:hover {
+    background-color: var(--color-alt); }
+  .btn-ghost:active {
+    transform: scale(0.99); }
+
+.platos {
+  --image: url(../assets/imagen/grilled-chicken-1334632_1920.jpg); }
+
+.postres {
+  --image: url(../assets/imagen/postres/the-cake-427920_1920.jpg); }
+
+.barra {
+  --image: url(../assets/imagen/barra/glass-3151279_1920.jpg); }
+
 .about {
   height: 100%;
   min-height: 450px; }
@@ -142,11 +384,11 @@
   .ground:after {
     left: 50%;
     margin-left: -166.66667px;
-    box-shadow: -340px 260px 15px #b7c1d3, -600px 600px 15px #aab6cb, -910px 890px 15px #adb9cd, -1170px 1230px 15px #bac4d5, -1475px 1525px 15px #8496b4, -1825px 1775px 15px #aab6cb, -2140px 2060px 15px #97a6c0, -2425px 2375px 15px #8193b2, -2655px 2745px 15px #a4b1c8, -2975px 3025px 15px #b0bccf, -3330px 3270px 15px #aab6cb, -3635px 3565px 15px #8496b4, -3850px 3950px 15px #8a9bb8, -4230px 4170px 15px #7e90b0, -4465px 4535px 15px #8e9eba, -4800px 4800px 15px #8a9bb8; }
+    box-shadow: -265px 335px 15px #97a6c0, -620px 580px 15px #8a9bb8, -885px 915px 15px #9dabc4, -1190px 1210px 15px #94a3be, -1530px 1470px 15px #b0bccf, -1835px 1765px 15px #b7c1d3, -2120px 2080px 15px #9dabc4, -2420px 2380px 15px #9aa9c2, -2675px 2725px 15px #a1aec6, -2975px 3025px 15px #a1aec6, -3265px 3335px 15px #8e9eba, -3625px 3575px 15px #8496b4, -3930px 3870px 15px #8496b4, -4220px 4180px 15px #9dabc4, -4460px 4540px 15px #8496b4, -4845px 4755px 15px #b0bccf; }
   .ground:before {
     right: 50%;
     margin-right: -166.66667px;
-    box-shadow: 305px -295px 15px #8a9bb8, 605px -595px 15px #94a3be, 870px -930px 15px #8193b2, 1205px -1195px 15px #94a3be, 1505px -1495px 15px #adb9cd, 1850px -1750px 15px #bac4d5, 2080px -2120px 15px #bac4d5, 2360px -2440px 15px #a7b4c9, 2715px -2685px 15px #94a3be, 3025px -2975px 15px #b0bccf, 3350px -3250px 15px #aab6cb, 3555px -3645px 15px #a7b4c9, 3890px -3910px 15px #a7b4c9, 4160px -4240px 15px #9aa9c2, 4500px -4500px 15px #a1aec6, 4775px -4825px 15px #8193b2; }
+    box-shadow: 315px -285px 15px #8496b4, 630px -570px 15px #8193b2, 860px -940px 15px #a7b4c9, 1200px -1200px 15px #9dabc4, 1535px -1465px 15px #97a6c0, 1825px -1775px 15px #aab6cb, 2060px -2140px 15px #97a6c0, 2405px -2395px 15px #8496b4, 2660px -2740px 15px #b4bed1, 2975px -3025px 15px #91a1bc, 3345px -3255px 15px #91a1bc, 3560px -3640px 15px #97a6c0, 3935px -3865px 15px #8e9eba, 4210px -4190px 15px #a7b4c9, 4535px -4465px 15px #9dabc4, 4845px -4755px 15px #8193b2; }
 
 .mound {
   margin-top: -80px;

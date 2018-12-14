@@ -12,7 +12,7 @@ class Home extends Component{
             <div className="home" >
             <div className="portada" >
             <video className="video" src={video} autoPlay >
-                <source className="cheff" src={video} ></source>
+                
             </video>
             </div>
 
