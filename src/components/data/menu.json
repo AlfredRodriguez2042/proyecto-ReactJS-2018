@@ -1,63 +1,21 @@
 {
-    "carta":[
-        {
-            "id": 1,
-            "name": "palto principal",
-            "poster": "https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
-            "prince": "300",
-            "autor": "alfredo rodriguez",
-            "temporada": "otoño",
-            "categories": [
-                "parrila",
-                "mariscos"
-            ]
-
-
-        },
-        {
-            "id": 2,
-            "name": "palto principal",
-            "poster": "https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
-            "prince": "300",
-            "autor": "alfredo rodriguez",
-            "temporada": "otoño",
-            "categories": [
-                "parrila",
-                "mariscos"
-            ]
-
-
-        },
-        {
-            "id": 3,
-            "name": "palto principal",
-            "poster" :"https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
-            "prince": "300",
-            "autor": "alfredo rodriguez",
-            "temporada": "otoño",
-            "categories": [
-                "parrila",
-                "mariscos"
-            ]
-
-
-        },
-        {
-            "id": 4,
-            "name": "palto principal",
-            "poster":"https://www.google.com.ar/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFiaOcgo3fAhXMIJAKHSkYBCwQjRx6BAgBEAU&url=http%3A%2F%2Fwww.cocinayvino.com%2Frecetas%2Fmariscos%2Fcolas-langosta-la-parrilla%2F&psig=AOvVaw1thgkYc4vKq9kxwb9l5rYv&ust=1544247961945363",
-            "prince": "300",
-            "autor": "alfredo rodriguez",
-            "temporada": "otoño",
-            "categories": [
-                "parrila",
-                "mariscos"
-            ]
-
-
-        }
-
-
-
-    ]
+        "items": [
+            {
+                "id": "1",
+                "category_id": "0",
+                "title": "Pollo cordon bleu",
+                "name": "alfred",
+                "body": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita 150 gr de azúcar y 200 gr de agua fría. Llevamos a fuego mínimo durante 5 minutos y cuando rompa el hervor le agregamos 200 gr de frutos rojos. Apagamos el fuego y dejamos que se enfríe en la heladera.",
+                "fecha": "2018-12-15 00:00:00"
+            },
+            {
+                "id": "2",
+                "category_id": "0",
+                "title": "Cheesecake de Frutos rojo",
+                "name": "alfred",
+                "body": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita 150 gr de azúcar y 200 gr de agua fría. Llevamos a fuego mínimo durante 5 minutos y cuando rompa el hervor le agregamos 200 gr de frutos rojos. Apagamos el fuego y dejamos que se enfríe en la heladera. ",
+                "fecha": "0000-00-00 00:00:00"
+            }
+        ]
+    
 }

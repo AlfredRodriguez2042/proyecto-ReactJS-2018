@@ -19,6 +19,7 @@ import Contact from './Contact'
 import { logout } from './data/Auth'
 import '../index.css'
 import logo from '../logo.svg'
+//import PreLoader from './Loader'
 
 
 const PrivateRoute = ( { component: Component, authed, rest } ) => (
@@ -92,7 +93,17 @@ class App extends Component {
 
   render() {
     return this.state.loading === true
-      ? <h1>Cargando...</h1> 
+      ? <div className="preloader" >
+      <h1 className="loader" >
+      <span>L</span>
+      <span>o</span>
+      <span>a</span>
+      <span>d</span>
+      <span>i</span>
+      <span>n</span>
+      <span>g</span>
+      </h1>
+  </div>
       : (
     <Router>
      <div className="html" >

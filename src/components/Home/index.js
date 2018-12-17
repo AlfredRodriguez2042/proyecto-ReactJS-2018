@@ -9,14 +9,20 @@ import '../../css/index.css'
 class Home extends Component{
     render(){
         return(
+
             <div className="home" >
+            <div className="chrismas" id="chrismas" >
+
+            </div>
+                 
+
             <div className="portada" >
             <video className="video" src={video} autoPlay >
                 
             </video>
             </div>
 
-            {/* NIVEL 2 */}
+             {/* NIVEL 2 */}
 
             <div className="content-home" >
             <div className="mask" >

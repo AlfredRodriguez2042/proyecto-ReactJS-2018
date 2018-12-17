@@ -71,6 +71,78 @@ root {
 .text-color {
   --color: var(--text-color); }
 
+root {
+  --color-first: #007BDF;
+  --color-first-alt: #006DC6;
+  --color-second: #00CBFF;
+  --color-second-alt: #00BFF0;
+  --color-third: #FF3C32;
+  --color-third-alt: #FF2419;
+  --color-accent: #FBA905;
+  --color-accent-alt: #F1A000;
+  --color-light: #F0F0F0;
+  --color-dark: #282D31;
+  --color-dark-alt: #141618;
+  --color-border: #DFE0E0;
+  --color-text: #53575A;
+  --color-text-light: #BABDBF;
+  --color-body-bg: #FCFCFC; }
+
+.color {
+  color: var(--color); }
+
+.background {
+  background-color: var(--color); }
+
+.first-color, .color-first {
+  --color: var(--first-color);
+  --color-alt: var(--first-color-alt); }
+
+.second-color, .color-second {
+  --color: var(--second-color);
+  --color-alt: var(--second-color-alt); }
+
+.third-color, .color-third {
+  --color: var(--third-color);
+  --color-alt: var(--third-color-alt); }
+
+.accent-color, .color-accent {
+  --color: var(--accent-color);
+  --color-alt: var(--accent-color-alt); }
+
+.dark-color, .color-dark {
+  --color: var(--dark-color);
+  --color-alt: var(--dark-color-alt); }
+
+.text-color, .color-text {
+  --color: var(--text-color);
+  --color-alt: var(--dark-color); }
+
+.light-color, .color-light {
+  --color: var(--light-color);
+  --color-alt: var(--border-color); }
+
+.first-color-alt {
+  --color: var(--first-color-alt); }
+
+.second-color-alt {
+  --color: var(--second-color-alt); }
+
+.third-color-alt {
+  --color: var(--third-color-alt); }
+
+.accent-color-alt {
+  --color: var(--accent-color-alt); }
+
+.dark-color-alt {
+  --color: var(--dark-color-alt); }
+
+.border-color {
+  --color: var(--border-color); }
+
+.text-color {
+  --color: var(--text-color); }
+
 .home {
   padding: 0;
   margin: 0; }
@@ -152,6 +224,58 @@ root {
   @media (min-width: 1200px) {
     .mask-2 {
       clip-path: polygon(52% 100%, 0 0, 100% 0); } }
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+  background: #141618; }
+
+.loader {
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+  font-size: 16em; }
+
+.loader span {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  animation: loader 2s linear infinite; }
+  .loader span:nth-child(1) {
+    animation-delay: 0s; }
+  .loader span:nth-child(2) {
+    animation-delay: 0.25s; }
+  .loader span:nth-child(3) {
+    animation-delay: 0.5s; }
+  .loader span:nth-child(4) {
+    animation-delay: 0.75s; }
+  .loader span:nth-child(5) {
+    animation-delay: 1s; }
+  .loader span:nth-child(6) {
+    animation-delay: 1.25s; }
+  .loader span:nth-child(7) {
+    animation-delay: 1.5s; }
+
+@keyframes loader {
+  0%, 100% {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 40px purple, 0 0 80px purple, 0 0 120px purple, 0 0 200px purple, 0 0 300px purple, 0 0 400px purple; }
+  5%, 95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: none; } }
+
+.chrismas {
+  width: 100%;
+  height: 900px;
+  background: url(https://stmed.net/sites/default/files/christmas-wallpapers-28333-4710994.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 root {
   --color-first: #007BDF;
@@ -384,11 +508,11 @@ root {
   .ground:after {
     left: 50%;
     margin-left: -166.66667px;
-    box-shadow: -265px 335px 15px #97a6c0, -620px 580px 15px #8a9bb8, -885px 915px 15px #9dabc4, -1190px 1210px 15px #94a3be, -1530px 1470px 15px #b0bccf, -1835px 1765px 15px #b7c1d3, -2120px 2080px 15px #9dabc4, -2420px 2380px 15px #9aa9c2, -2675px 2725px 15px #a1aec6, -2975px 3025px 15px #a1aec6, -3265px 3335px 15px #8e9eba, -3625px 3575px 15px #8496b4, -3930px 3870px 15px #8496b4, -4220px 4180px 15px #9dabc4, -4460px 4540px 15px #8496b4, -4845px 4755px 15px #b0bccf; }
+    box-shadow: -305px 295px 15px #91a1bc, -595px 605px 15px #8a9bb8, -900px 900px 15px #97a6c0, -1160px 1240px 15px #8798b6, -1465px 1535px 15px #aab6cb, -1845px 1755px 15px #7e90b0, -2135px 2065px 15px #8a9bb8, -2445px 2355px 15px #b0bccf, -2650px 2750px 15px #8a9bb8, -3005px 2995px 15px #bac4d5, -3285px 3315px 15px #9aa9c2, -3575px 3625px 15px #8a9bb8, -3935px 3865px 15px #7e90b0, -4235px 4165px 15px #7e90b0, -4515px 4485px 15px #8496b4, -4815px 4785px 15px #b0bccf; }
   .ground:before {
     right: 50%;
     margin-right: -166.66667px;
-    box-shadow: 315px -285px 15px #8496b4, 630px -570px 15px #8193b2, 860px -940px 15px #a7b4c9, 1200px -1200px 15px #9dabc4, 1535px -1465px 15px #97a6c0, 1825px -1775px 15px #aab6cb, 2060px -2140px 15px #97a6c0, 2405px -2395px 15px #8496b4, 2660px -2740px 15px #b4bed1, 2975px -3025px 15px #91a1bc, 3345px -3255px 15px #91a1bc, 3560px -3640px 15px #97a6c0, 3935px -3865px 15px #8e9eba, 4210px -4190px 15px #a7b4c9, 4535px -4465px 15px #9dabc4, 4845px -4755px 15px #8193b2; }
+    box-shadow: 340px -260px 15px #a1aec6, 570px -630px 15px #a4b1c8, 870px -930px 15px #97a6c0, 1155px -1245px 15px #8e9eba, 1515px -1485px 15px #97a6c0, 1845px -1755px 15px #8e9eba, 2065px -2135px 15px #94a3be, 2395px -2405px 15px #bac4d5, 2745px -2655px 15px #8e9eba, 2960px -3040px 15px #91a1bc, 3285px -3315px 15px #b0bccf, 3625px -3575px 15px #b4bed1, 3935px -3865px 15px #97a6c0, 4250px -4150px 15px #aab6cb, 4520px -4480px 15px #a7b4c9, 4800px -4800px 15px #8496b4; }
 
 .mound {
   margin-top: -80px;

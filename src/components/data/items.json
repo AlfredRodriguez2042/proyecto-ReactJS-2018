@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "pollo rostisado",
+      "poster": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita 150 gr de azúcar y 200 gr de agua fría. Llevamos a fuego mínimo durante 5 minutos y cuando rompa el hervor le agregamos 200 gr de frutos rojos. Apagamos el fuego y dejamos que se enfríe en la heladera.",
+    
+      "amount": "40",
+      "cocinero": "alfred",
+      "date": "25/01/2016",
+      "categories": [
+        "cocina",
+        "temporada",
+        "cena",
+        "almuerzo",
+        "Básico"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Carne al vino",
+      "poster": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita",
+      
+      "amount": "40",
+      "cocinero": "Daniel Romero",
+      "date": "29/02/2016",
+      "categories": [
+        "cocina",
+        "temporada",
+        "cena",
+        "almuerzo",
+        "basico"
+      ]
+    },
+    {
+      "id": 3,
+      "name": " postre del dia",
+      "poster": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita",
+      
+      "amount": "40",
+      "cocinero": "Alexys Lozada",
+      "date": "28/03/2016",
+      "categories": [
+        "postres",
+        "cenas",
+        "Básico"
+      ]
+    },
+    
+    {
+      "id": 4,
+      "name": "Pollo a la mostaza",
+      "poster": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita",
+  
+      "amount": "40",
+      "cocinero": "Alberto Quiroga",
+      "date": "03/04/2017",
+      "categories": [
+        "primavera",
+        "degustacion",
+        "cena",
+        "almuerzo",
+       
+        "Básico"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "tarta caprese",
+      "poster": "Preparación: </br>  Molemos 300 gr de galletitas de vainilla o chocolate según preferencia de los comensales en el accesorio picador y las mezclamos con 150 gr de manteca derretida hasta que queden bien unidas. Colocamos esta masa en una tortera desmontable cubriendo el fondo de la misma, asegurándonos de aplastar bien las galletitas con la ayuda de las manos.  En un bowl colocamos 750 gr de queso crema, 4 huevos, 220 gr de azúcar, 2 cucharaditas de esencia de vainilla, mezclamos y luego agregamos en forma de lluvia 40 gr de harina tamizada y 150 cc de crema de leche batida a medio punto. Ligamos suavemente todos los ingredientes y dejamos reposar. Vertemos la preparación sobre la base de galletitas, tapamos con papel de aluminio y llevamos a horno medio por 1 hora. Cuando está listo enfriamos en heladera durante 3 horas hasta alcanzar la consistencia deseada.Servimos bien frío con salsa de frutos rojos casera: colocamos en una cacerolita",
+    
+      "amount": "40",
+      "cocinero": "Jonathan MirCha",
+      "date": "04/04/2017",
+      "categories": [
+        "perimavera",
+        "almuerzo",
+        "cena",
+        "Básico"
+      ]
+    }
+  ]
+}

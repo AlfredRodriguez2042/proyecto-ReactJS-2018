@@ -1,4 +1,7 @@
 //variables y mixins
+@import './variables.scss';
+
+
 .home{
     padding: 0;
     margin: 0;
@@ -87,4 +90,75 @@
     }
 }
     
-    
+.preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+    background: $color-dark-alt;
+}
+ .loader{
+     margin: 0;
+     padding: 0;
+     color: #ddd;
+     font-size: 16em;
+ }   
+
+ .loader span{
+     display: table-cell;
+     margin: 0;
+     padding: 0;
+     animation: loader 2s linear infinite;
+     &:nth-child(1){
+         animation-delay: 0s;
+     }
+     &:nth-child(2){
+         animation-delay: 0.25s;
+     }
+     &:nth-child(3){
+         animation-delay: 0.5s;
+     }
+     &:nth-child(4){
+         animation-delay: 0.75s;
+     }
+     &:nth-child(5){
+         animation-delay: 1s;
+     }
+     &:nth-child(6){
+         animation-delay: 1.25s;
+     }
+     &:nth-child(7){
+         animation-delay: 1.5s;
+     }
+
+ }
+ @keyframes loader {
+     0%,100%{ 
+         color: #fff;
+          filter: blur(2px);
+          text-shadow: 0 0 10px purple,
+                      0 0 20px purple,
+                      0 0 40px purple,
+                      0 0 80px purple,
+                      0 0 120px purple,
+                      0 0 200px purple,
+                      0 0 300px purple,
+                      0 0 400px purple;
+                      
+         }
+         5%,95%{
+             color: #111;
+             filter: blur(0px);
+             text-shadow:  none;
+         }
+ }
+ .chrismas{
+     width: 100%;
+     height: 900px;
+     background: url(https://stmed.net/sites/default/files/christmas-wallpapers-28333-4710994.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }
