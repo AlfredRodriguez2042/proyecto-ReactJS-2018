@@ -447,6 +447,221 @@ root {
 .barra {
   --image: url(../assets/imagen/barra/glass-3151279_1920.jpg); }
 
+root {
+  --color-first: #007BDF;
+  --color-first-alt: #006DC6;
+  --color-second: #00CBFF;
+  --color-second-alt: #00BFF0;
+  --color-third: #FF3C32;
+  --color-third-alt: #FF2419;
+  --color-accent: #FBA905;
+  --color-accent-alt: #F1A000;
+  --color-light: #F0F0F0;
+  --color-dark: #282D31;
+  --color-dark-alt: #141618;
+  --color-border: #DFE0E0;
+  --color-text: #53575A;
+  --color-text-light: #BABDBF;
+  --color-body-bg: #FCFCFC; }
+
+.color {
+  color: var(--color); }
+
+.background {
+  background-color: var(--color); }
+
+.first-color, .color-first {
+  --color: var(--first-color);
+  --color-alt: var(--first-color-alt); }
+
+.second-color, .color-second {
+  --color: var(--second-color);
+  --color-alt: var(--second-color-alt); }
+
+.third-color, .color-third {
+  --color: var(--third-color);
+  --color-alt: var(--third-color-alt); }
+
+.accent-color, .color-accent {
+  --color: var(--accent-color);
+  --color-alt: var(--accent-color-alt); }
+
+.dark-color, .color-dark {
+  --color: var(--dark-color);
+  --color-alt: var(--dark-color-alt); }
+
+.text-color, .color-text {
+  --color: var(--text-color);
+  --color-alt: var(--dark-color); }
+
+.light-color, .color-light {
+  --color: var(--light-color);
+  --color-alt: var(--border-color); }
+
+.first-color-alt {
+  --color: var(--first-color-alt); }
+
+.second-color-alt {
+  --color: var(--second-color-alt); }
+
+.third-color-alt {
+  --color: var(--third-color-alt); }
+
+.accent-color-alt {
+  --color: var(--accent-color-alt); }
+
+.dark-color-alt {
+  --color: var(--dark-color-alt); }
+
+.border-color {
+  --color: var(--border-color); }
+
+.text-color {
+  --color: var(--text-color); }
+
+.form {
+  position: absolute;
+  width: 100%;
+  min-height: 600px;
+  max-height: 1000px;
+  background: url(../assets/imagen/los-ingredientes-basicos-de-la-gastronomia-espanola-1440x810.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.login-box {
+  position: relative;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 420px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5); }
+  @media (min-width-1200px) {
+    .login-box {
+      top: 10%; } }
+  .login-box h1 {
+    padding-top: 60px;
+    color: #ddd;
+    text-align: center; }
+
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px); }
+
+.formulario {
+  position: relative;
+  top: 10%; }
+  .formulario .frm {
+    box-sizing: border-box;
+    height: auto;
+    width: auto; }
+  .formulario .input {
+    position: relative;
+    height: 2em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1px;
+    margin-bottom: 2em;
+    border: 0;
+    transition: all 300ms;
+    box-sizing: content-box; }
+    .formulario .input:focus {
+      border-bottom: 3px solid #ddd; }
+    .formulario .input:focus + .lbl {
+      margin-top: -21px; }
+  .formulario .lbl {
+    position: absolute;
+    margin-top: 0;
+    padding: 0 .5em;
+    left: 0;
+    transition: 300ms;
+    color: #ddd;
+    font-weight: bold; }
+  .formulario .fijar {
+    margin-top: -21px;
+    /* ------clase del JS-------*/ }
+  .formulario .btn__submit {
+    margin: auto;
+    border: 1px solid purple;
+    padding: 1em 6rem;
+    background-color: var(--color);
+    color: White;
+    cursor: pointer;
+    display: block;
+    border-radius: .25rem;
+    transition: transform .05s;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem; }
+    .formulario .btn__submit:hover {
+      background-color: purple;
+      color: white;
+      font-weight: normal; }
+    .formulario .btn__submit:active {
+      transform: scale(0.98); }
+
+.content-register {
+  position: absolute;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/imagen/fondos/register.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  transition: 2s; }
+
+.content-register2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 450px;
+  background: url(../assets/imagen/fondos/register.jpg);
+  background-position: center;
+  z-index: 1; }
+
+.content-register2:hover ~ .content-register {
+  filter: blur(11px); }
+
+.content-register2:hover {
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8); }
+
+.ctn-services {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 400px;
+  width: 80%;
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+  display: flex; }
+
+.ctn-service {
+  width: calc(40% + 50px);
+  height: 400px;
+  background: black;
+  box-sizing: border-box;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px; }
+
+.ctn-service2 {
+  width: calc(60% + 50px);
+  height: 400px;
+  box-sizing: border-box;
+  background: red;
+  border-left: 180px solid #000;
+  border-bottom: 400px solid transparent;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px; }
+
 .about {
   height: 100%;
   min-height: 450px; }
@@ -508,11 +723,11 @@ root {
   .ground:after {
     left: 50%;
     margin-left: -166.66667px;
-    box-shadow: -305px 295px 15px #91a1bc, -595px 605px 15px #8a9bb8, -900px 900px 15px #97a6c0, -1160px 1240px 15px #8798b6, -1465px 1535px 15px #aab6cb, -1845px 1755px 15px #7e90b0, -2135px 2065px 15px #8a9bb8, -2445px 2355px 15px #b0bccf, -2650px 2750px 15px #8a9bb8, -3005px 2995px 15px #bac4d5, -3285px 3315px 15px #9aa9c2, -3575px 3625px 15px #8a9bb8, -3935px 3865px 15px #7e90b0, -4235px 4165px 15px #7e90b0, -4515px 4485px 15px #8496b4, -4815px 4785px 15px #b0bccf; }
+    box-shadow: -335px 265px 15px #adb9cd, -555px 645px 15px #aab6cb, -925px 875px 15px #a7b4c9, -1165px 1235px 15px #8193b2, -1455px 1545px 15px #8e9eba, -1815px 1785px 15px #91a1bc, -2080px 2120px 15px #8a9bb8, -2440px 2360px 15px #94a3be, -2710px 2690px 15px #a1aec6, -2975px 3025px 15px #adb9cd, -3330px 3270px 15px #aab6cb, -3600px 3600px 15px #8193b2, -3895px 3905px 15px #a1aec6, -4230px 4170px 15px #b0bccf, -4495px 4505px 15px #8798b6, -4825px 4775px 15px #8496b4; }
   .ground:before {
     right: 50%;
     margin-right: -166.66667px;
-    box-shadow: 340px -260px 15px #a1aec6, 570px -630px 15px #a4b1c8, 870px -930px 15px #97a6c0, 1155px -1245px 15px #8e9eba, 1515px -1485px 15px #97a6c0, 1845px -1755px 15px #8e9eba, 2065px -2135px 15px #94a3be, 2395px -2405px 15px #bac4d5, 2745px -2655px 15px #8e9eba, 2960px -3040px 15px #91a1bc, 3285px -3315px 15px #b0bccf, 3625px -3575px 15px #b4bed1, 3935px -3865px 15px #97a6c0, 4250px -4150px 15px #aab6cb, 4520px -4480px 15px #a7b4c9, 4800px -4800px 15px #8496b4; }
+    box-shadow: 275px -325px 15px #91a1bc, 555px -645px 15px #8798b6, 945px -855px 15px #a4b1c8, 1165px -1235px 15px #7e90b0, 1480px -1520px 15px #94a3be, 1845px -1755px 15px #7e90b0, 2080px -2120px 15px #9dabc4, 2445px -2355px 15px #97a6c0, 2700px -2700px 15px #8193b2, 3045px -2955px 15px #b7c1d3, 3325px -3275px 15px #8798b6, 3555px -3645px 15px #b7c1d3, 3890px -3910px 15px #91a1bc, 4155px -4245px 15px #9dabc4, 4515px -4485px 15px #8e9eba, 4840px -4760px 15px #97a6c0; }
 
 .mound {
   margin-top: -80px;

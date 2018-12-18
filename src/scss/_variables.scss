@@ -111,3 +111,21 @@ $color-body-bg : #FAFDFF;
     --color: var(--text-color);
   }
   
+
+
+  
+  $azul1 : rgb(34, 62, 102);
+  $celeste1 : steelblue;
+  $celeste2 : #0672d0;
+  $celeste3 : deepskyblue;
+     $rojo1 : crimson;
+   $blanco1 : #ddd;
+     $fondo : rgb(251, 251, 251);
+    $verde1 : green;
+    $verde2 : seagreen;
+  
+  
+  
+  
+    $bg__gradient : linear-gradient(right, $celeste3, $celeste2, darken($celeste2, 10), $azul1);
+  

@@ -12,7 +12,25 @@ class Home extends Component{
 
             <div className="home" >
             <div className="chrismas" id="chrismas" >
+              <ul>
+                  <li>F</li>
+                  <li>e</li>
+                  <li>l</li>
+                  <li>z</li>              
 
+              </ul>
+              <ul>
+              <li>N</li>
+              <li>a</li>
+              <li>v</li>
+              <li>i</li>
+              <li>d</li>
+              <li>a</li>
+              <li>d</li>
+
+
+
+              </ul>
             </div>
                  
 

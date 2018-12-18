@@ -14,6 +14,8 @@ import About from './About'
 import Login from './Login'
 import Page404 from './Page404'
 import Register from './Register'
+import Service from './Service'
+
 import Blog from './Blog'
 import Contact from './Contact'
 import { logout } from './data/Auth'
@@ -123,11 +125,14 @@ class App extends Component {
                 </li>
 
                   <li className="menu-item">
-                      <Link to="/acerca" className="item-link" onClick={this.handleOnClick}>Acerca</Link>
+                      <Link to="/carta" className="item-link" onClick={this.handleOnClick}>Carta</Link>
                   </li>
 
                   <li className="menu-item">
                       <Link to="/contact" className="item-link" onClick={this.handleOnClick}>Contacto</Link>
+                  </li>
+                  <li className="menu-item">
+                      <Link to="/service" className="item-link" onClick={this.handleOnClick}>Service</Link>
                   </li>
                   </ul>
       
@@ -182,7 +187,8 @@ class App extends Component {
             <main className="Main">
               <Switch>
                 <Route path='/' exact component={Home} />
-                <Route path='/acerca' component={About} />
+                <Route path='/carta' component={About} />
+                <Route path='/Service' component={Service}/>
                 <Route path='/contact' component={Contact} />
                 <PublicRoute authed={this.state.authed} path='/login' component={Login} />
                 <PublicRoute authed={this.state.authed} path='/registro' component={Register} />

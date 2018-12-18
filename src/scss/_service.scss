@@ -1,0 +1,34 @@
+
+$border: 15px;
+.ctn-services{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 400px;
+    width: 80%;
+    //background: red;
+    box-shadow: 0 25px 30px rgba(black, .5);
+    display: flex;
+}
+.ctn-service{
+   
+     width: calc(40% + 50px);
+     height: 400px;
+     background: black;
+     box-sizing: border-box;
+     border-bottom-left-radius: $border;
+     border-top-left-radius: $border;
+
+
+}
+.ctn-service2{
+    
+    width: calc(60% + 50px);
+    height: 400px;
+    box-sizing: border-box;
+    background: red;
+    border-left: 180px solid #000;
+    border-bottom: 400px solid transparent;
+    border-bottom-right-radius: $border;
+     border-top-right-radius: $border;
+}

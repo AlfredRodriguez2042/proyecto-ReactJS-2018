@@ -28,6 +28,7 @@ body{
   background: purple;
   display: flex;
   position: relative;
+  z-index: 100;
 }
 
 .menu{
