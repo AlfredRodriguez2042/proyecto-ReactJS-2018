@@ -90,9 +90,9 @@
       color      : #FFF;
       padding    : .5rem;
       font-size  : 14px;
-      // display: block;
-      @media(min-width: 1024){
-        display : none;
+      display: none;
+      @media(min-width: 1024px){
+        display : block;
       }
   
       span {
@@ -113,7 +113,8 @@
     text-align: center;
 
     &:hover{
-    background-color: var(--color-alt);
+    background-color: $color-first-alt;
+    
     }
 
     &:active{

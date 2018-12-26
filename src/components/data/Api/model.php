@@ -1,31 +1,19 @@
 <?php
-include_once 'comentadio.php';
-class ApiPost{
-    function getAll(){
-        $post = new comentario();
-        $posts= array();
-        $posts["items"] = array();
+header("Acces-Control-Allow-Origin:*");
+header('Content-Type: application/json');
 
-        $res = $post->obtenercomentarios();
-        if($res->rowCount()){
-           while($row= $res->fetch(PDO::FETCH_ASSOC)){
-               $item = array(
-                'id' => $row['id'],
-                'category_id' =>$row['category_id'],
-                'title' => $row['title'],
-                'name' => $row['name'],
-                'body' =>html_entity_decode(['body']),
-                'fecha'=>$row['fecha']
-               );
-               array_push($posts['items'], $item);
-           }
-        echo json_encode($posts);
 
-    
+if($_GET['dbcomentarios']== 'categories'){
 
-        }else{
-            echo json_encode(array('mensaje'=> 'no hay elementos registrados'));
-        }
-    }
+
+     include_once 'conexion.php';
+
+    $sql = 'SELECT * FROM '.$_GET['dbcomenatrios'];
+    $sentencia = $pdo->prepare($sql);
+     $sentencia->execute();
+     $datos =$sentencia->fetchAll();
+
+}else{
+    echo 'solicitud no encontrada';
 }
-    ?>
+  echo json_encode($datos);

@@ -1,34 +1,132 @@
 
 $border: 15px;
+
 .ctn-services{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    height: 400px;
-    width: 80%;
-    //background: red;
-    box-shadow: 0 25px 30px rgba(black, .5);
-    display: flex;
-}
-.ctn-service{
-   
-     width: calc(40% + 50px);
-     height: 400px;
-     background: black;
-     box-sizing: border-box;
-     border-bottom-left-radius: $border;
-     border-top-left-radius: $border;
-
-
-}
-.ctn-service2{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    background: url(../assets/imagen/fondos/img1.jpg);
+    animation: portada 10s infinite linear alternate;
+    @keyframes portada {
+        0%{background-position: bottom left;}
+        100%{background-position: top right;}
+        
+    }
     
-    width: calc(60% + 50px);
-    height: 400px;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient( purple, black);
+        opacity: .7;
+        
+    }
+    &::before{
+        content: '';
+        border-width: 0 0 30vh 100vw;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+.portada-service{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    z-index: 50;
+    h1{
+        font-size: 3.5em;
+    }
+    p{
+        width: 90%;
+        margin: auto;
+        font-size: 2em;
+    }
+}
+
+
+.service2{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.service3{
+    width: 100%;
+    height: 500px;
+    display: flex;
     box-sizing: border-box;
-    background: red;
-    border-left: 180px solid #000;
-    border-bottom: 400px solid transparent;
-    border-bottom-right-radius: $border;
-     border-top-right-radius: $border;
+    position: relative;
+    overflow: hidden;
+    &::before{
+        content: '';
+        position: absolute;
+        border-width: 20vh 100vw 0 0;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+    &::after{
+        content: '';
+        border-width: 0 0 18vh 100vw;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+.service-img{
+    width: 25%;
+    height: 100;
+    position: relative;
+    overflow: hidden;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.service-4{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    .serv-img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-top: 100px;
+        box-sizing: border-box;
+        &::after{
+            content: '';
+            position: absolute;
+            border-width: 12vh 100vw 0 0;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+            top: 0;
+            left: 0;
+            z-index: 50;
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        display:  block;
+    
+    }
 }

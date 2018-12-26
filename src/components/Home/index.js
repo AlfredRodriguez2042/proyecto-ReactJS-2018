@@ -5,34 +5,14 @@ import React, { Component } from 'react';
 import '../../css/index.css' 
 //assets
  import video from '../../assets/video/cheff.mp4';
+ import Footer from '../Footer'
 
 class Home extends Component{
     render(){
         return(
 
             <div className="home" >
-            <div className="chrismas" id="chrismas" >
-              <ul>
-                  <li>F</li>
-                  <li>e</li>
-                  <li>l</li>
-                  <li>z</li>              
-
-              </ul>
-              <ul>
-              <li>N</li>
-              <li>a</li>
-              <li>v</li>
-              <li>i</li>
-              <li>d</li>
-              <li>a</li>
-              <li>d</li>
-
-
-
-              </ul>
-            </div>
-                 
+           
 
             <div className="portada" >
             <video className="video" src={video} autoPlay >
@@ -43,27 +23,33 @@ class Home extends Component{
              {/* NIVEL 2 */}
 
             <div className="content-home" >
-            <div className="mask" >
-            <div className="mask-center" >
+             <div className="ctn-center">
             <h1 className="text-title" > BIENVENIDOS A LA COCINA </h1>
             <h2 className="text-sub" > vive una nueva experiencia, atrevete a provar algo nuevo <br></br> acompañanos en esta aventura y se parte de algo increible <br></br>      descubre la magia <br></br>  </h2>
         
              <button  className="home-btn"> Ver mas detalles</button>
+             </div>
             </div>
-            </div>
-            </div>
+
+            <div className="ctn-medio"> <h1>VEN A DISFRUTAR NUESTRA AMPLIA CARTA <br></br> QUE TENEMOS PARA TI</h1> 
+            <p> Todos los dias encontraras gran variedad de platos
+                 </p>
+                 <a className="btn">Click Me!!</a>
+             </div>
               
               {/* NIVEL 3 */}
               <div className="ctn-home" >
-            <div className="mask-2" >
-            <div>
+            <div className="mask" >
+            
                 <h2>ven y disfruta en familia</h2>
             </div>
-            </div>
+            
 
             </div>
             
+            <Footer/>
             </div>
+        
         );
     }
 }

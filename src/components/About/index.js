@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 // styles
 import '../../css/index.css' 
 import Platos from '../../assets/imagen/chicken.jpg';
+import Footer from '../Footer';
 
 class About extends Component{
    constructor(...props){
@@ -81,6 +82,8 @@ class About extends Component{
     </div>
       
             <input type="submit" id="btn" onclick={this.handleBotom} /> 
+
+            <Footer/>
                </div>
         );
     }

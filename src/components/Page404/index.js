@@ -99,6 +99,10 @@ handleCanvas(){
       })();
 }
 
+componentDidMount(){
+  this.handleCanvas();
+}
+
     render(){
         return(
             <div className="about" >

@@ -114,7 +114,7 @@ class App extends Component {
               
            <img className="logo" src={logo} alt="REact"/>
                 
-             <p  className="ctn" id="toggle" onClick={this.handleOnClick}><s className="bar"></s><s className="bar"></s></p>
+             <p  className="ctn" id="toggle" onClick={this.handleOnClick}></p>
           </div>
             <div className="menu" id="tuckedMenu">
                

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //styles
 import '../../css/index.css' 
 import Posts from'./help'
+import Footer from '../Footer';
 
 
 
@@ -13,7 +14,7 @@ class Blog extends Component {
         <div className="content-blog">
             <Posts/>
             
-        
+        <Footer/>
         </div>
       );
    

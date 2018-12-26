@@ -76,6 +76,7 @@ for (let i = 0; i < inputs.length; i++){
         </form>
         </div>
         </div>
+        <footer/>
 			</article>
 		)
 	}

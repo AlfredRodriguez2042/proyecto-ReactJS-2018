@@ -4,6 +4,7 @@ import { auth } from '../data/Auth'
 import '../../css/index.css' 
 
 
+
 export default class Register extends Component {
   constructor(...props) {
     super(...props)
@@ -43,10 +44,10 @@ for (let i = 0; i < inputs.length; i++){
       <div className="content-register2" >
 				<h1>Registro de Usuarios</h1>
         <form className="formulario-register" onSubmit={this.handleOnSubmit}>
-          <input type="email" id="email" className="imput" ref={ email => this.email = email }  />
-          <label for="email" className="lbel"></label>
+          <input type="email" id="email" className="imput" ref={ email => this.email = email }  /> 
+          <label for="email" className="lbel">Email</label> <br/>
           <input type="password" id="password" className="imput" ref={ password => this.password = password } />
-          <label for="password" className="lbel"></label>
+          <label for="password" className="lbel">Password</label> <br/>
           {
             this.state.loginMessage &&
             <div className="u-error">
@@ -59,6 +60,7 @@ for (let i = 0; i < inputs.length; i++){
         </form>
         </div>
         <div className="content-register" ></div>
+        
 			</article>
 		)
 	}

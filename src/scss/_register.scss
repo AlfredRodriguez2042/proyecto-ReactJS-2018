@@ -23,6 +23,7 @@
     background:url(../assets/imagen/fondos/register.jpg);
     background-position: center;
     z-index: 1;
+    text-align: center;
     
    
 }
@@ -33,4 +34,38 @@
 
 .content-register2:hover{
     box-shadow:  0 25px 60px rgba(black,.8)
+}
+
+.formulario-register{
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    .imput{
+        line-height: 2em;
+        background: transparent;
+        border-bottom: 2px solid white;
+        width: 200px;
+        margin-bottom: 2em;
+    }
+    .btn-register{
+        line-height: 2em;
+        padding: .5em 4.5em;
+        border-radius: 10px;
+        background: -webkit-linear-gradient( left,purple,purple, white,purple, purple,white,purple);
+        background-size: 350%;
+        color: #ddd;
+        font-weight: bold;
+        &:hover{
+            animation: btn 8s linear infinite;
+        }
+        @keyframes btn {
+            0%{ background-position: 0;}
+            100%{ background-position: 350%;}
+    }
+    
+}
+}
+.u-error{
+    color: red;
+    font-weight: bold;
 }
