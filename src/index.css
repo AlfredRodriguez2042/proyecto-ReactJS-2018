@@ -1,43 +1,24 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
-.logo {
-  display: block;
-  margin: auto;
-  width: auto;
-  max-height: 3rem;
-  animation: App-logo-spin infinite 20s linear;
-  height: 4em;
-  margin-top: 10px;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-                                           
-.header{
+.header {
   width: 100%;
-  height: 100px;
+  height: 60px;
   background: purple;
   display: flex;
   position: relative;
   z-index: 100;
 }
 
-.menu{
+.menu {
   width: 100%;
   height: auto;
 }
 
-                                                      /* MENU PUBLICO */
-.menu-list{
+/* MENU PUBLICO */
+.menu-list {
   width: 400px;
   padding: 0;
   margin: 0;
@@ -47,56 +28,49 @@ body{
   bottom: 0;
 }
 
-.menu-item{
+.menu-item {
   width: 100px;
   height: auto;
   text-align: center;
-  border-right: 1px solid #ddd;
+
   list-style: none;
-  
 }
-.item-link{
+.item-link {
   text-decoration: none;
   color: #ddd;
-  line-height: 3em;
+  line-height: 2em;
   display: block;
   cursor: pointer;
 }
 
+/* REGRISTO */
+.faded {
+  padding: 0;
+  position: absolute;
+  background: purple;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 2px 2px 6px 0px black;
+  z-index: 100;
+}
 
-                              /* REGRISTO */
- .faded{
-     padding: 0;
-     position: absolute;
-     background: purple;
-     border-bottom-right-radius: 15px;
-     border-bottom-left-radius: 15px;
-     box-shadow: 2px 2px 6px 0px black;
-      z-index: 100;                           
-  }
-                  
-  
-  .login {
-    display: none; 
-    
- }
-   
- 
- .menu-item:hover .login{
-  
-   display: block;
- }
- 
-.login-menu{
+.login {
+  display: none;
+}
+
+.menu-item:hover .login {
+  display: block;
+}
+
+.login-menu {
   width: 100px;
   bottom: 0;
   position: absolute;
   right: 40px;
   padding: 0;
   margin: 0;
-
 }
-a{
+a {
   padding-bottom: 15px;
 }
 .faded .f1 {
@@ -116,22 +90,19 @@ a{
   animation-fill-mode: forwards;
 }
 
-@keyframes anime{
-  0%{
+@keyframes anime {
+  0% {
     opacity: 0;
     transform: rotateY(-90deg) translateY(50px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: rotateY(0deg) translateY(0deg);
   }
 }
 
-
-
-
-                                      /* ESTADO LOG IN */
-.logout{
+/* ESTADO LOG IN */
+.logout {
   position: absolute;
   display: flex;
   right: -101px;

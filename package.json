@@ -1,23 +1,24 @@
 {
   "name": "proyect03",
+  "homepage": "https://AlfredRodriguez2042.github.io/proyecto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^5.6.0",
-    "node-sass": "^4.10.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-datepicker": "^2.0.0",
-    "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
-    "react-select": "^2.1.2"
+    "firebase": "^7.14.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-datepicker": "^2.15.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
