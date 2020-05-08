@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/proyecto/static/css/main.580c306b.chunk.css",
+    "main.js": "/proyecto/static/js/main.a7d7211a.chunk.js",
+    "main.js.map": "/proyecto/static/js/main.a7d7211a.chunk.js.map",
+    "runtime-main.js": "/proyecto/static/js/runtime-main.b97739e7.js",
+    "runtime-main.js.map": "/proyecto/static/js/runtime-main.b97739e7.js.map",
+    "static/js/2.28c95f0c.chunk.js": "/proyecto/static/js/2.28c95f0c.chunk.js",
+    "static/js/2.28c95f0c.chunk.js.map": "/proyecto/static/js/2.28c95f0c.chunk.js.map",
+    "index.html": "/proyecto/index.html",
+    "precache-manifest.3585487560fc0cb6e91d9da4e9231368.js": "/proyecto/precache-manifest.3585487560fc0cb6e91d9da4e9231368.js",
+    "service-worker.js": "/proyecto/service-worker.js",
+    "static/css/main.580c306b.chunk.css.map": "/proyecto/static/css/main.580c306b.chunk.css.map",
+    "static/js/2.28c95f0c.chunk.js.LICENSE.txt": "/proyecto/static/js/2.28c95f0c.chunk.js.LICENSE.txt",
+    "static/media/cheff.mp4": "/proyecto/static/media/cheff.df19e46f.mp4",
+    "static/media/chicken.jpg": "/proyecto/static/media/chicken.86e785e7.jpg",
+    "static/media/cocina.jpg": "/proyecto/static/media/cocina.5abdeed0.jpg",
+    "static/media/des1.jpg": "/proyecto/static/media/des1.87b0f8a2.jpg",
+    "static/media/index.css": "/proyecto/static/media/the-cake-427920_1920.17065218.jpg",
+    "static/media/food1.jpg": "/proyecto/static/media/food1.064f275c.jpg",
+    "static/media/img1.jpg": "/proyecto/static/media/img1.9c48ae1d.jpg",
+    "static/media/logo.svg": "/proyecto/static/media/logo.5d5d9eef.svg",
+    "static/media/rest1.jpg": "/proyecto/static/media/rest1.b08355d8.jpg",
+    "static/media/rest2.jpg": "/proyecto/static/media/rest2.14fa73fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b97739e7.js",
+    "static/js/2.28c95f0c.chunk.js",
+    "static/css/main.580c306b.chunk.css",
+    "static/js/main.a7d7211a.chunk.js"
+  ]
+}
